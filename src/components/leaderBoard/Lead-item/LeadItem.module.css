@@ -1,0 +1,47 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 50px 9px 55px;
+    width: 745px;
+    padding-left: 50px;
+    padding-right: 55px;
+    border-bottom: 1.5px solid #810000;
+}
+.wrapper:nth-child(even) {
+    background: rgba(254, 233, 231, 0.69);
+}
+.number {
+    margin-right: 184px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 32px;
+    color: #810000;
+    width: 20px;
+}
+
+img {
+    width: 54px;
+    height: 54px;
+    margin-right: 43.5px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    color: #810000;
+}
+
+.total {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #810000;
+}

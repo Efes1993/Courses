@@ -1,0 +1,81 @@
+.playroom {
+    background: #FFD7D4;
+    margin: 0 auto;
+    overflow-y: hidden;
+    padding-bottom: 0;
+  }
+  
+.wrapper {
+    background: #FFD7D4;
+    padding: 36px 176px 39px 98px;
+    display: flex;
+}
+
+.wrapper__game {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: start;
+}
+.item:first-child {
+    margin-right: 274px;
+}
+
+.currentPlayer {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #810000;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.header {
+    margin-top: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    color: #810000;
+    margin-bottom: 70px;
+}
+
+.start__btn {
+    width: 258px;
+    padding: 24px 0;
+    margin-bottom: 45px;
+    background: #C63838;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FEE9E7;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.start__btn:hover {
+    background-color: #fff;
+    color: #C63838;
+    transition: .3s all ease;
+}
+
+.game__info {
+    margin-top: 12.5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    color: #810000;
+    text-align: center;
+}
